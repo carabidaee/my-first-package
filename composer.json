@@ -1,0 +1,18 @@
+{
+    "name": "alexander-tolmachev/my-first-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AlexanderTolmachev\\MyFirstPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander Tolmachev",
+            "email": "carabidaee@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
